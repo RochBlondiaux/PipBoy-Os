@@ -1,16 +1,11 @@
 {
-  "name": "reactjs-vite-tailwindcss-boilerplate",
-  "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
-  "version": "0.1.0",
-  "private": true,
+  "name": "pipboy-os",
+  "description": "An operating system for the PipBoy.",
+  "version": "1.0.0",
   "author": {
-    "name": "João Paulo Moraes",
-    "email": "joaopaulomoraes@outlook.com",
-    "url": "https://github.com/joaopaulomoraes"
-  },
-  "bugs": {
-    "url": "https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate/issues",
-    "email": "joaopaulomoraes@outlook.com"
+    "name": "Roch Blondiaux",
+    "email": "contact@roch-blondiaux.com",
+    "url": "https://roch-blondiaux.com"
   },
   "scripts": {
     "dev": "vite",
@@ -23,7 +18,9 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-loading": "^2.0.3",
+    "react-type-animation": "^3.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
